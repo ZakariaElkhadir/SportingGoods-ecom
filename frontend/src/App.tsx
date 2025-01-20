@@ -1,10 +1,11 @@
-import './App.css'
+import "./App.css";
+import SecCateg from "./Categories/secCateg";
 function App() {
-
   return (
-    <div className=" p-6">
-      Tailwind CSS is working!
+    <div>
+      
+      {/* <SecCateg /> */}
     </div>
   );
 }
-export default App
+export default App;
