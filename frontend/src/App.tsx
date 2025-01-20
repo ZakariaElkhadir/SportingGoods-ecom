@@ -2,7 +2,9 @@ import './App.css'
 function App() {
 
   return (
-    <h1 className='text-3xl font-bold underline'>vffvr</h1>
+    <div className="bg-blue-500 text-white p-6">
+      Tailwind CSS is working!
+    </div>
   );
 }
 export default App
