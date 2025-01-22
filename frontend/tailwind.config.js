@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Smooch: ["Smooch Sans", "sans-serif"],
+        colors: {
+          cardbg: '#f8f8f8',
+        },
+      }
+    },
   },
   plugins: [],
 }
